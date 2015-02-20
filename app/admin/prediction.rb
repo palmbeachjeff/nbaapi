@@ -1,4 +1,5 @@
 ActiveAdmin.register Prediction do
+  permit_params :user_id, :game_id, :home_score, :away_score
 
 
   # See permitted parameters documentation:
