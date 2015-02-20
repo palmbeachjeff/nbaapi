@@ -1,4 +1,5 @@
 ActiveAdmin.register Team do
+  permit_params :name, :wins, :losses, :ties
 
 
   # See permitted parameters documentation:
